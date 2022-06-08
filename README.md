@@ -19,5 +19,6 @@ Open AI Gym was used to generate the reinforcement learning environment for the 
 
 Running the files require that following installations:
 Open AI Gym - https://robots.uc3m.es/installation-guides/install-openai-gym.html
+
 Stable Baslines 3 - https://github.com/DLR-RM/stable-baselines3
 
