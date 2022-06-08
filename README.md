@@ -1,6 +1,6 @@
 # Deep Reinforcement Learning in Real-Time Optimization
 
-This project was conducted as a part of the course the final project for the Chemical Engineering and Biotechnology Master in the course TKP4900 - “Chemical Process Technology, Master’s Thesis” at the Norwegian University of Science and Technology, NTNU. The project introduces reinforcement learning from a process control perspective and investigates how to apply model-free reinforcement learning in static real-time optimization. Deep deterministic policy gradient (DDPG) algorithm is used to solve the Williams-Otto reactor.
+This project was conducted as a part of the course the final project for the Chemical Engineering and Biotechnology Master in the course TKP4900 - “Chemical Process Technology, Master’s Thesis” at the Norwegian University of Science and Technology, NTNU. The project introduces reinforcement learning from a process control perspective and investigates how to apply model-free reinforcement learning in static real-time optimization. Deep deterministic policy gradient (DDPG) algorithm is used to solve the Williams-Otto reactor. This Github repository presents foundational code examples used for the thesis.
 
 # Abstract from thesis
 
@@ -13,12 +13,23 @@ This project contributes to a detailed description and discussion on how to form
 
 <img width="350" alt="WOrx" src="https://user-images.githubusercontent.com/94930940/172698624-824647a2-c1ff-4c9e-b139-9d0664427b80.png">
 
+
 # Resources 
 
 Open AI Gym was used to generate the reinforcement learning environment for the reactor and DDPG from Stable Baselines 3 were used. The algorithms TD3 and SAC was also tested on the environment. 
 
 Running the files require that following installations:
-Open AI Gym - https://robots.uc3m.es/installation-guides/install-openai-gym.html
+Open AI Gym - https://github.com/openai/gym
 
 Stable Baslines 3 - https://github.com/DLR-RM/stable-baselines3
+
+# Overview
+There are three variants of the Gym Williams-Otto reactor environment: WOreactorEnv, minWOreactorEnv and extWOreactorEnv. They correspond to MDP state formulations with full, minimal and extended states respecively, as described in the thesis.
+
+Simulation of the chosen environment is done from one of the simulation files; simDDPG, simTD3 and simSAC. The difference between them is which Stable Baseline 3 algorithm they use, given in the file names.
+
+genSimData and makeInputPlots are example files that generate text files of DDPG simulation and plots them according to the following figure:
+
+
+![RLRTODDPG](https://user-images.githubusercontent.com/94930940/172700941-ff8c79a0-72d0-4018-83f4-ad4ed03a9624.png)
 
