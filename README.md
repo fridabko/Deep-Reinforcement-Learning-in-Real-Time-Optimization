@@ -1,4 +1,4 @@
-# Deep-Reinforcement-Learning-in-Real-Time-Optimization
+# Deep Reinforcement Learning in Real-Time Optimization
 
 This project was conducted as a part of the course the final project for the Chemical Engineering and Biotechnology Master in the course TKP4900 - “Chemical Process Technology, Master’s Thesis” at the Norwegian University of Science and Technology, NTNU. The project introduces reinforcement learning from a process control perspective and investigates how to apply model-free reinforcement learning in static real-time optimization. Deep deterministic policy gradient (DDPG) algorithm is used to solve the Williams-Otto reactor.
 
