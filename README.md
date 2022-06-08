@@ -9,7 +9,9 @@ Reinforcement learning (RL) is a machine learning field attracting attention for
 Real-time optimization (RTO) ensures that process plant operation is continuously optimized to the economic optimum by solving a steady-state optimization problem. Developing an accurate process model to use in RTO can be challenging in chemical process plants. Therefore, the use of RL in RTO can eliminate the need for a process model. However, the steady-state RTO problem differs from a typical RL problem. Formulating it as an MDP is essential to enable the use of RL as an optimization method in RTO. 
 
 This project contributes to a detailed description and discussion on how to formulate a steady-state optimization problem as an MDP from first principles, assuming minimal prior knowledge in RL. Further, it shows how to utilize the model-free RL algorithm deep deterministic policy gradient (DDPG) to solve the problem with the Python RL tool Stable Baselines 3. A version of RTO called modifier adaptation (MA) is introduced as an example of a conventional RTO alternative. It is used as a base case for comparison with the RL-RTO, and both schemes are applied to the Williams-Otto reactor as a case study for implementation. The results prove that the steady-state optimization problem can be solved using RL. However, RL-RTO faces challenges with sample efficiency and constraint violation that must be addressed for real-life implementation. Finally, measures to overcome the challenges and a discussion of RL-RTO's potential as a subject for further research are presented.
-<img width="279" alt="WOrx" src="https://user-images.githubusercontent.com/94930940/172698624-824647a2-c1ff-4c9e-b139-9d0664427b80.png">
+
+
+<img width="350" alt="WOrx" src="https://user-images.githubusercontent.com/94930940/172698624-824647a2-c1ff-4c9e-b139-9d0664427b80.png">
 
 # Resources 
 
